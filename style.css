@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;300;200;900&display=swap');
 body,
 button,
 input,
@@ -54,6 +54,7 @@ body {
     color: white;
     text-align: center;
     padding: 60px 10px 20px;
+    margin-right: 100px;
 }
 
 .iphone-container .not {
@@ -92,4 +93,82 @@ body {
     grid-template-columns: 3fr 1fr;
     color: var(--light-gray);
     grid-gap: 1rem;
+}
+
+
+/*phone two*/
+
+.iphone-container2 {
+    width: 350px;
+    height: 700px;
+    background-color: var(--dark-blue);
+    border-radius: 45px;
+    border: 20px solid black;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 60px 10px 20px;
+    margin-right: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.iphone-container2 .not2 {
+    width: 180px;
+    height: 25px;
+    background: #bfbfc1;
+    margin: 0 auto;
+    border-radius: 0 0 30px 30px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 90px);
+}
+
+.iphone-container2 .menu2 {
+    width: 90px;
+    height: 2px;
+    background-color: var(--light-gray);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 45px);
+}
+
+.iphone-container2 .top-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.iphone-container2 .city-name {
+    font-weight: 300;
+    color: var(--light-gray);
+}
+
+.iphone-container2 h1 {
+    font-size: 70px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.iphone-container2 h3 {
+    font-weight: 400;
+}
+
+.iphone-container2 .week {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.iphone-container2 .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top: 100px;
+}
+
+.iphone-container2 .footer svg {
+    width: 30px;
+    height: 30px;
 }
